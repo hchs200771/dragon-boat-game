@@ -304,7 +304,7 @@
   }
   function availableKeys(){return Object.keys(ITEMS).filter(k=>ITEMS[k].minLv<=levelIndex+1);}
   function pickType(){const keys=availableKeys();let t=keys.reduce((s,k)=>s+effWeight(k),0),r=Math.random()*t;for(const k of keys){r-=effWeight(k);if(r<=0)return k;}return keys[0];}
-  function sizeMult(key){return key==="dragonKing"||key==="chuWang"?1+Math.min(levelIndex,4)*0.12:1;}
+  function sizeMult(key){return key==="dragonKing"||key==="chuWang"?1+Math.min(levelIndex,5)*0.05:1;}
   function spawn(){const radius=27;entities.push({key:pickType(),x:W+radius,y:34+Math.random()*(H-68),r:radius,wob:Math.random()*6.28});}
   function addFloater(text,color){floaters.push({x:boat.x+boat.bw*0.18,y:boat.y-boat.bh*0.5-4,text,color,life:1});}
 
