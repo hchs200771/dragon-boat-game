@@ -125,13 +125,20 @@
   </svg>`;
 
   SVG.gecko = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-    <ellipse cx="50" cy="89" rx="24" ry="5" fill="#072a31" opacity=".35"/>
-    <path d="M44 72 Q34 54 46 32 Q54 20 66 31 Q72 46 61 69 Q54 82 44 72Z" fill="#d49a39" stroke="#7b4f1c" stroke-width="2"/>
-    <path d="M57 30 Q75 21 84 12" stroke="#d49a39" stroke-width="7" fill="none" stroke-linecap="round"/>
-    <path d="M80 12 q10 -3 12 5" stroke="#7b4f1c" stroke-width="2" fill="none"/>
-    <path d="M44 38 L25 27 M43 55 L22 57 M59 40 L81 38 M57 58 L77 70" stroke="#d49a39" stroke-width="7" stroke-linecap="round"/>
-    <g stroke="#7b4f1c" stroke-width="2" fill="none"><path d="M25 27 l-7 -5"/><path d="M22 57 l-8 2"/><path d="M81 38 l8 -2"/><path d="M77 70 l7 5"/></g>
-    <circle cx="57" cy="34" r="2" fill="#101010"/>
+    <ellipse cx="50" cy="91" rx="27" ry="5" fill="#072a31" opacity=".35"/>
+    <path d="M45 73 Q34 58 39 39 Q44 20 60 25 Q73 30 66 50 Q61 68 50 77 Q48 78 45 73Z" fill="#33a852" stroke="#14632f" stroke-width="2"/>
+    <path d="M54 27 Q64 13 78 17 Q87 22 82 33 Q72 38 62 34Z" fill="#46bf62" stroke="#14632f" stroke-width="2"/>
+    <path d="M45 74 Q35 86 22 90 Q14 92 12 87 Q24 80 36 66" fill="#2a8f45" stroke="#14632f" stroke-width="2"/>
+    <path d="M43 39 L24 23 M40 53 L18 57 M60 40 L80 31 M58 57 L76 72" stroke="#33a852" stroke-width="7" stroke-linecap="round"/>
+    <g fill="#46bf62" stroke="#14632f" stroke-width="1.5">
+      <circle cx="20" cy="20" r="4"/><circle cx="15" cy="25" r="3.5"/><circle cx="22" cy="29" r="3.5"/>
+      <circle cx="14" cy="57" r="4"/><circle cx="18" cy="63" r="3.5"/><circle cx="21" cy="54" r="3.5"/>
+      <circle cx="83" cy="28" r="4"/><circle cx="88" cy="33" r="3.5"/><circle cx="80" cy="36" r="3.5"/>
+      <circle cx="79" cy="74" r="4"/><circle cx="86" cy="75" r="3.5"/><circle cx="76" cy="81" r="3.5"/>
+    </g>
+    <g fill="#b4d238"><circle cx="48" cy="39" r="2.5"/><circle cx="55" cy="45" r="2.5"/><circle cx="47" cy="53" r="2.5"/><circle cx="55" cy="60" r="2.5"/><circle cx="43" cy="64" r="2.2"/></g>
+    <circle cx="65" cy="26" r="2.4" fill="#101010"/>
+    <circle cx="75" cy="28" r="2.4" fill="#101010"/>
   </svg>`;
 
   SVG.scorpion = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -169,10 +176,14 @@
   </svg>`;
 
   SVG.badWave = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-    <ellipse cx="50" cy="89" rx="28" ry="5" fill="#072a31" opacity=".35"/>
-    <path d="M16 72 Q32 38 52 56 Q50 34 72 24 Q64 42 78 55 Q88 66 82 80 Q66 68 49 79 Q31 88 16 72Z" fill="#2f8fae" stroke="#123f5e" stroke-width="2"/>
-    <path d="M28 68 Q44 52 62 65 Q58 49 71 37" fill="none" stroke="#d7f2f4" stroke-width="5" stroke-linecap="round"/>
-    <path d="M19 77 Q34 84 49 76 M58 73 Q69 66 82 75" stroke="#d7f2f4" stroke-width="3" fill="none" opacity=".85"/>
+    <ellipse cx="50" cy="92" rx="30" ry="5" fill="#072a31" opacity=".35"/>
+    <path d="M25 21 Q49 8 78 19 Q70 34 64 51 Q58 69 48 88 Q38 70 33 53 Q28 37 25 21Z" fill="#9aa8ad" stroke="#2f3d42" stroke-width="2.5"/>
+    <path d="M28 22 Q50 15 75 20" stroke="#dfe8ea" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M22 36 Q48 29 77 34" stroke="#2f3d42" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M20 52 Q43 44 68 48" stroke="#dfe8ea" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M31 67 Q47 60 61 62" stroke="#2f3d42" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M18 42 q-12 4 -14 14 M78 41 q13 0 18 11 M25 70 q-13 3 -17 11 M66 64 q13 -2 22 7" stroke="#dfe8ea" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M30 88 q9 5 20 0 q10 -5 21 0" stroke="#d7f2f4" stroke-width="4" fill="none" stroke-linecap="round"/>
   </svg>`;
 
   SVG.whirlpool = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -226,7 +237,7 @@
     dragonKing:{cat:"bad",  label:"海龍王",   heal:-35, weight:0,  minLv:1, dyn:"dragonW"},
     poisonSnake:{cat:"bad", label:"毒蛇",     heal:-22, weight:10, minLv:2},
     gecko:     {cat:"bad",  label:"壁虎",     score:-45, weight:8, minLv:2},
-    badWave:   {cat:"bad",  label:"惡浪",     heal:-16, weight:10, minLv:2},
+    badWave:   {cat:"bad",  label:"龍捲風",   heal:-16, weight:10, minLv:2},
     scorpion:  {cat:"bad",  label:"蠍子",     heal:-28, weight:8, minLv:3},
     toad:      {cat:"bad",  label:"蟾蜍",     score:-70, weight:7, minLv:3},
     centipede: {cat:"bad",  label:"蜈蚣",     heal:-18, score:-20, weight:7, minLv:3},
@@ -444,7 +455,7 @@
   (function buildLegend(){
     const rows=[["quYuan","屈原 救起 +100"],["caiZong","菜粽 +20/+10血"],["rouZong","肉粽 +50/+18血"],
       ["eggZong","蛋黃肉粽 +120/+26"],["aiCao","艾草 5秒避邪盾"],["chuWang","楚王 扣分 −80"],
-      ["dragonKing","海龍王 −35血"],["poisonSnake","毒蛇 −22血"],["badWave","惡浪 −16血"],["whirlpool","漩渦 −24血"],
+      ["dragonKing","海龍王 −35血"],["poisonSnake","毒蛇 −22血"],["badWave","龍捲風 −16血"],["whirlpool","漩渦 −24血"],
       ["scorpion","蠍子 −28血"],["toad","蟾蜍 扣分 −70"],["centipede","蜈蚣 扣分/血"],["poisonFog","毒霧 扣分/血"],
       ["boat","你的龍舟"]];
     document.getElementById("legend").innerHTML=rows.map(([k,t])=>`<div><img src="${IMG[k].src}" alt=""><span>${t}</span></div>`).join("");
