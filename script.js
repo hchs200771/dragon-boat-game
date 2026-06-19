@@ -261,13 +261,14 @@
   let W=0,H=0,dpr=1,minY=0,maxY=0;
   const boat={x:0,y:0,targetY:0,bw:0,bh:0};
   let foam=[];
+  function boatWidthMult(){return matchMedia("(pointer:coarse)").matches?0.9:1;}
   function initFoam(){foam=[];for(let i=0;i<16;i++)foam.push({x:Math.random()*W,y:18+Math.random()*(H-36),len:10+Math.random()*22,sp:60+Math.random()*90});}
   function resize(){
     const r=canvas.getBoundingClientRect();
     W=r.width;H=r.height;dpr=Math.min(window.devicePixelRatio||1,2.5);
     canvas.width=Math.round(W*dpr);canvas.height=Math.round(H*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);
     boat.bw=Math.min(160,W*0.44);boat.bh=Math.round(boat.bw*104/210);
-    boat.x=Math.max(boat.bw*0.46,W*0.26);
+    boat.x=Math.max(boat.bw*boatWidthMult()*0.46,W*0.26);
     minY=boat.bh*0.45+12;maxY=H-boat.bh*0.45-12;
     boat.y=clamp(boat.y||H/2,minY,maxY);boat.targetY=boat.y;
     initFoam();
@@ -324,7 +325,8 @@
 
     if(grace>0){grace-=dt;}else{spawnTimer-=dt;if(spawnTimer<=0){spawn();spawnTimer=cfg.gap;}}
 
-    const rx=boat.x-boat.bw*0.32,ry=boat.y-boat.bh*0.33,rw=boat.bw*0.91,rh=boat.bh*0.66;
+    const boatW=boat.bw*boatWidthMult();
+    const rx=boat.x-boatW*0.32,ry=boat.y-boat.bh*0.33,rw=boatW*0.91,rh=boat.bh*0.66;
     for(let i=entities.length-1;i>=0;i--){
       const e=entities[i],it=ITEMS[e.key];
       const m=sizeMult(e.key);
@@ -385,8 +387,9 @@
   }
   function drawBoat(){
     const bob=Math.sin(elapsed*2.2)*3;
-    if(shield>0){ctx.save();ctx.globalAlpha=0.35+0.25*Math.sin(elapsed*8);ctx.strokeStyle="#bff0a0";ctx.lineWidth=3;ctx.shadowColor="#bff0a0";ctx.shadowBlur=16;ctx.beginPath();ctx.ellipse(boat.x+boat.bw*0.08,boat.y,boat.bw*0.56,boat.bh*0.74,0,0,Math.PI*2);ctx.stroke();ctx.restore();}
-    if(ready(IMG.boat))ctx.drawImage(IMG.boat,boat.x-boat.bw/2,boat.y-boat.bh/2+bob,boat.bw,boat.bh);
+    const boatW=boat.bw*boatWidthMult();
+    if(shield>0){ctx.save();ctx.globalAlpha=0.35+0.25*Math.sin(elapsed*8);ctx.strokeStyle="#bff0a0";ctx.lineWidth=3;ctx.shadowColor="#bff0a0";ctx.shadowBlur=16;ctx.beginPath();ctx.ellipse(boat.x+boatW*0.08,boat.y,boatW*0.56,boat.bh*0.74,0,0,Math.PI*2);ctx.stroke();ctx.restore();}
+    if(ready(IMG.boat))ctx.drawImage(IMG.boat,boat.x-boatW/2,boat.y-boat.bh/2+bob,boatW,boat.bh);
   }
   function drawBanner(){
     if(!banner)return;const a=clamp(banner.time,0,1);
