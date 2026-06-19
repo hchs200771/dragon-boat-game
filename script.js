@@ -14,10 +14,10 @@
     <g fill="#e7b53c" stroke="#9c7a1d" stroke-width="1"><circle cx="60" cy="64" r="3.6"/><circle cx="80" cy="65" r="3.6"/><circle cx="100" cy="65" r="3.6"/><circle cx="120" cy="65" r="3.6"/><circle cx="140" cy="64" r="3.6"/></g>
     <!-- 划手 ×4 -->
     <g>
-      <g transform="translate(60,0)"><line x1="3" y1="42" x2="-9" y2="74" stroke="#8a5a2b" stroke-width="3" stroke-linecap="round"/><path d="M-9 70 l-5 9 l9 -3z" fill="#8a5a2b"/><path d="M-4 50 Q-7 38 3 36 Q11 38 8 50Z" fill="#2f8f8a"/><path d="M3 41 Q-2 41 -5 45" stroke="#f0caa0" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="2" cy="31" r="5" fill="#f0caa0"/><path d="M-3 29 Q2 25 7 29" stroke="#d8412f" stroke-width="3" fill="none"/></g>
-      <g transform="translate(84,1)"><line x1="3" y1="42" x2="-9" y2="74" stroke="#8a5a2b" stroke-width="3" stroke-linecap="round"/><path d="M-9 70 l-5 9 l9 -3z" fill="#8a5a2b"/><path d="M-4 50 Q-7 38 3 36 Q11 38 8 50Z" fill="#d8412f"/><path d="M3 41 Q-2 41 -5 45" stroke="#f0caa0" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="2" cy="31" r="5" fill="#f0caa0"/><path d="M-3 29 Q2 25 7 29" stroke="#e7b53c" stroke-width="3" fill="none"/></g>
-      <g transform="translate(108,0)"><line x1="3" y1="42" x2="-9" y2="74" stroke="#8a5a2b" stroke-width="3" stroke-linecap="round"/><path d="M-9 70 l-5 9 l9 -3z" fill="#8a5a2b"/><path d="M-4 50 Q-7 38 3 36 Q11 38 8 50Z" fill="#e7b53c"/><path d="M3 41 Q-2 41 -5 45" stroke="#f0caa0" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="2" cy="31" r="5" fill="#f0caa0"/><path d="M-3 29 Q2 25 7 29" stroke="#2f8f8a" stroke-width="3" fill="none"/></g>
-      <g transform="translate(132,0)"><line x1="3" y1="42" x2="-9" y2="74" stroke="#8a5a2b" stroke-width="3" stroke-linecap="round"/><path d="M-9 70 l-5 9 l9 -3z" fill="#8a5a2b"/><path d="M-4 50 Q-7 38 3 36 Q11 38 8 50Z" fill="#d8412f"/><path d="M3 41 Q-2 41 -5 45" stroke="#f0caa0" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="2" cy="31" r="5" fill="#f0caa0"/><path d="M-3 29 Q2 25 7 29" stroke="#e7b53c" stroke-width="3" fill="none"/></g>
+      <g transform="translate(60,0)"><line x1="8" y1="42" x2="20" y2="74" stroke="#8a5a2b" stroke-width="3" stroke-linecap="round"/><path d="M20 70 l5 9 l-9 -3z" fill="#8a5a2b"/><path d="M-4 50 Q-7 38 3 36 Q11 38 8 50Z" fill="#2f8f8a"/><path d="M4 41 Q9 41 12 45" stroke="#f0caa0" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="2" cy="31" r="5" fill="#f0caa0"/><path d="M6 32 l4 2 l-4 2z" fill="#f0caa0" stroke="#d9ad82" stroke-width=".7"/><circle cx="5" cy="30" r=".8" fill="#241a14"/><path d="M-3 29 Q2 25 7 29" stroke="#d8412f" stroke-width="3" fill="none"/></g>
+      <g transform="translate(84,1)"><line x1="8" y1="42" x2="20" y2="74" stroke="#8a5a2b" stroke-width="3" stroke-linecap="round"/><path d="M20 70 l5 9 l-9 -3z" fill="#8a5a2b"/><path d="M-4 50 Q-7 38 3 36 Q11 38 8 50Z" fill="#d8412f"/><path d="M4 41 Q9 41 12 45" stroke="#f0caa0" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="2" cy="31" r="5" fill="#f0caa0"/><path d="M6 32 l4 2 l-4 2z" fill="#f0caa0" stroke="#d9ad82" stroke-width=".7"/><circle cx="5" cy="30" r=".8" fill="#241a14"/><path d="M-3 29 Q2 25 7 29" stroke="#e7b53c" stroke-width="3" fill="none"/></g>
+      <g transform="translate(108,0)"><line x1="8" y1="42" x2="20" y2="74" stroke="#8a5a2b" stroke-width="3" stroke-linecap="round"/><path d="M20 70 l5 9 l-9 -3z" fill="#8a5a2b"/><path d="M-4 50 Q-7 38 3 36 Q11 38 8 50Z" fill="#e7b53c"/><path d="M4 41 Q9 41 12 45" stroke="#f0caa0" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="2" cy="31" r="5" fill="#f0caa0"/><path d="M6 32 l4 2 l-4 2z" fill="#f0caa0" stroke="#d9ad82" stroke-width=".7"/><circle cx="5" cy="30" r=".8" fill="#241a14"/><path d="M-3 29 Q2 25 7 29" stroke="#2f8f8a" stroke-width="3" fill="none"/></g>
+      <g transform="translate(132,0)"><line x1="8" y1="42" x2="20" y2="74" stroke="#8a5a2b" stroke-width="3" stroke-linecap="round"/><path d="M20 70 l5 9 l-9 -3z" fill="#8a5a2b"/><path d="M-4 50 Q-7 38 3 36 Q11 38 8 50Z" fill="#d8412f"/><path d="M4 41 Q9 41 12 45" stroke="#f0caa0" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="2" cy="31" r="5" fill="#f0caa0"/><path d="M6 32 l4 2 l-4 2z" fill="#f0caa0" stroke="#d9ad82" stroke-width=".7"/><circle cx="5" cy="30" r=".8" fill="#241a14"/><path d="M-3 29 Q2 25 7 29" stroke="#e7b53c" stroke-width="3" fill="none"/></g>
     </g>
     <!-- 龍頭（放大） -->
     <path d="M158 48 Q150 38 152 26 Q160 36 169 40Z" fill="#d8412f"/>
@@ -208,13 +208,13 @@
 
     if(grace>0){grace-=dt;}else{spawnTimer-=dt;if(spawnTimer<=0){spawn();spawnTimer=cfg.gap;}}
 
-    const rx=boat.x-boat.bw*0.30,ry=boat.y-boat.bh*0.30,rw=boat.bw*0.86,rh=boat.bh*0.60;
+    const rx=boat.x-boat.bw*0.32,ry=boat.y-boat.bh*0.33,rw=boat.bw*0.91,rh=boat.bh*0.66;
     for(let i=entities.length-1;i>=0;i--){
       const e=entities[i],it=ITEMS[e.key];
       e.x-=speed*dt;e.wob+=dt*3;
       const chaos=it.cat==="bad"?cfg.chaos:0;
       e.y=clamp(e.y+Math.sin(e.wob)*chaos*dt,26,H-26);
-      if(circleRect(e.x,e.y,e.r*0.82,rx,ry,rw,rh)){applyHit(e.key);entities.splice(i,1);continue;}
+      if(circleRect(e.x,e.y,e.r*1.05,rx,ry,rw,rh)){applyHit(e.key);entities.splice(i,1);continue;}
       if(e.x+e.r<0)entities.splice(i,1);
     }
     score+=CFG.timeScore*dt;
@@ -225,7 +225,7 @@
   function applyHit(key){
     const it=ITEMS[key];
     if(it.cat==="bad"){
-      if(key==="dragonKing"&&shield>0){addFloater("避邪!","#bff0a0");buzz(15);return;}
+      if(shield>0){addFloater("避邪!","#bff0a0");buzz(15);return;}
       if(it.score)score=Math.max(0,score+it.score);
       if(it.heal)hp=clamp(hp+it.heal,0,CFG.hpMax);
       combo=0;addFloater(it.heal?it.heal+"血":it.score+"分","#ff9a8a");buzz(40);

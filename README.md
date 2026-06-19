@@ -2,6 +2,14 @@
 
 一個純前端的端午節龍舟小遊戲。玩家操控龍舟上下移動，救起屈原、收集粽子與艾草，並閃避楚王和海龍王。
 
+## 線上遊玩
+
+https://hchs200771.github.io/dragon-boat-game/
+
+## 遊戲畫面
+
+![端午龍舟遊戲畫面](image.png)
+
 ## 檔案結構
 
 ```text
@@ -9,6 +17,7 @@
 ├── index.html
 ├── styles.css
 ├── script.js
+├── image.png
 └── README.md
 ```
 

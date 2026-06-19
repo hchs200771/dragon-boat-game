@@ -1,0 +1,15 @@
+{
+  "name": "dragon-boat-game",
+  "version": "1.0.0",
+  "description": "一個純前端的端午節龍舟小遊戲。玩家操控龍舟上下移動，救起屈原、收集粽子與艾草，並閃避楚王和海龍王。",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.61.0"
+  }
+}
