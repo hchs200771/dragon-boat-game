@@ -40,8 +40,8 @@
     <path d="M38 96 Q26 70 40 52 Q52 42 68 50 Q82 60 80 96Z" fill="#34758f" stroke="#1f4f60" stroke-width="2"/>
     <path d="M50 60 Q52 78 50 92 M63 58 Q67 76 67 92" stroke="#1f4f60" stroke-width="1" fill="none" opacity=".5"/>
     <path d="M44 58 Q26 60 22 80 Q33 76 46 72Z" fill="#2c6b82" stroke="#1f4f60" stroke-width="1.5"/>
-    <path d="M16 82 Q11 64 28 60 Q44 58 47 74 Q47 88 30 91 Q19 91 16 82Z" fill="#9aa1a7" stroke="#5f6a72" stroke-width="2"/>
-    <path d="M25 68 l9 4 l-3 10 l-9 -4z" fill="#838c93"/><path d="M37 73 l6 3 l-2 7 l-6 -3z" fill="#7a838a"/>
+    <path d="M16 82 Q11 64 28 60 Q44 58 47 74 Q47 88 30 91 Q19 91 16 82Z" fill="#24282c" stroke="#111417" stroke-width="2"/>
+    <path d="M25 68 l9 4 l-3 10 l-9 -4z" fill="#3a4045"/><path d="M37 73 l6 3 l-2 7 l-6 -3z" fill="#171a1d"/>
     <path d="M47 62 Q40 74 31 84" fill="none" stroke="#2c6b82" stroke-width="8" stroke-linecap="round"/>
     <circle cx="59" cy="34" r="11" fill="#f0caa0"/>
     <path d="M48 33 q-3 2 0 5 q2 0 3 -1z" fill="#f0caa0" stroke="#d9ad82" stroke-width="1"/>
@@ -70,25 +70,37 @@
     <g fill="#f3e1a0"><circle cx="35" cy="40" r="2.1"/><circle cx="39" cy="42" r="2.1"/><circle cx="43" cy="40" r="2.1"/></g>
   </svg>`;
 
-  // 海龍王（側面）：龍首、暴突眼、飄垂長白鬚＋龍鬚、後掠龍角、華麗大冠、鱗甲
+  // 海龍王（側面）：龍首、冕旒冠、長白鬚、紅藍金官袍、玉圭與海浪
   SVG.dragonKing = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-    <path d="M54 96 Q48 74 60 62 Q74 54 88 62 Q94 74 90 96Z" fill="#1f6f8a" stroke="#123f5e" stroke-width="2"/>
-    <path d="M58 64 q6 5 12 0 q6 5 12 0 l0 6 q-6 5 -12 0 q-6 5 -12 0z" fill="#2f8fae" opacity=".9"/>
-    <path d="M52 52 Q60 92 86 84 Q74 70 70 52 Q62 58 52 52Z" fill="#eef2f4" stroke="#cdd6da" stroke-width="1"/>
-    <path d="M18 48 Q8 42 18 33 Q28 28 44 31 Q60 34 62 48 Q62 60 48 62 Q30 62 18 48Z" fill="#3f9e63" stroke="#2c7847" stroke-width="2.5"/>
-    <path d="M18 39 Q7 37 5 43 Q10 48 18 47Z" fill="#56b87a" stroke="#2c7847" stroke-width="1.5"/>
-    <circle cx="11" cy="42" r="1.6" fill="#143b27"/>
-    <path d="M7 46 Q20 52 33 49 L28 57 Q15 57 7 50Z" fill="#173d27"/>
-    <path d="M13 49 l2 6 l3 -5z" fill="#fff"/><path d="M22 50 l2 6 l3 -5z" fill="#fff"/>
-    <path d="M10 50 q8 3 15 2" stroke="#d8412f" stroke-width="2" fill="none"/>
-    <circle cx="40" cy="42" r="4.2" fill="#fff"/><circle cx="39" cy="42" r="2.2" fill="#101010"/>
-    <path d="M33 36 q7 -3 12 2" stroke="#143b27" stroke-width="3.5" fill="none"/>
-    <path d="M10 36 Q-2 30 -2 16" stroke="#eef2f4" stroke-width="2.2" fill="none"/>
-    <path d="M8 52 Q0 58 -1 70" stroke="#eef2f4" stroke-width="2.2" fill="none"/>
-    <path d="M50 33 Q60 20 74 18" stroke="#caa23a" stroke-width="5" fill="none" stroke-linecap="round"/>
-    <path d="M45 33 Q53 23 62 19" stroke="#b9912e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-    <path d="M36 28 L40 12 L48 20 L55 10 L62 20 L70 12 L73 28Z" fill="#e7b53c" stroke="#9c7a1d" stroke-width="1.5"/>
-    <circle cx="55" cy="16" r="3" fill="#d8412f"/><circle cx="44" cy="20" r="2" fill="#2f8fae"/><circle cx="66" cy="20" r="2" fill="#2f8fae"/>
+    <path d="M16 90 q10 -9 20 0 q10 9 20 0 q10 -9 20 0 q8 7 18 1" fill="none" stroke="#d7f2f4" stroke-width="4" opacity=".72"/>
+    <path d="M52 96 Q46 74 58 60 Q72 52 88 62 Q96 76 91 96Z" fill="#1f5f9a" stroke="#123f5e" stroke-width="2"/>
+    <path d="M60 64 Q70 70 84 64 L86 96 L58 96Z" fill="#8f2630" stroke="#561019" stroke-width="1.5"/>
+    <path d="M64 66 L80 66 L76 96 L58 96Z" fill="#245aa0" opacity=".9"/>
+    <path d="M61 66 q8 6 18 0 q5 12 3 30" fill="none" stroke="#e7b53c" stroke-width="3"/>
+    <path d="M72 62 l7 0 l-3 9z" fill="#e7b53c"/>
+    <path d="M50 52 Q55 84 84 84 Q73 70 70 52 Q61 58 50 52Z" fill="#eef2f4" stroke="#cdd6da" stroke-width="1"/>
+    <path d="M57 64 Q45 68 43 81" stroke="#f0caa0" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M38 78 L51 57" stroke="#bfe6e3" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M36 81 L51 58" stroke="#dff9f6" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M18 49 Q7 43 16 34 Q26 27 45 30 Q62 34 64 48 Q64 60 50 63 Q30 63 18 49Z" fill="#477f55" stroke="#245a34" stroke-width="2.5"/>
+    <path d="M18 39 Q7 36 5 43 Q10 49 19 48Z" fill="#69a86b" stroke="#245a34" stroke-width="1.5"/>
+    <path d="M7 46 Q21 53 34 49 L29 58 Q16 58 7 50Z" fill="#1f3f2a"/>
+    <path d="M12 49 l2 6 l3 -5z" fill="#fff"/><path d="M22 50 l2 6 l3 -5z" fill="#fff"/>
+    <path d="M9 50 q9 3 17 2" stroke="#d8412f" stroke-width="2" fill="none"/>
+    <circle cx="41" cy="42" r="4.7" fill="#fff"/><circle cx="40" cy="42" r="2.4" fill="#101010"/>
+    <path d="M33 36 q8 -4 14 2" stroke="#143b27" stroke-width="3.5" fill="none"/>
+    <path d="M42 53 Q46 70 58 76" stroke="#eef2f4" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M37 53 Q36 70 43 84" stroke="#eef2f4" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <path d="M12 36 Q-1 28 1 15" stroke="#eef2f4" stroke-width="2.2" fill="none"/>
+    <path d="M9 53 Q-2 61 0 74" stroke="#eef2f4" stroke-width="2.2" fill="none"/>
+    <path d="M49 31 Q58 17 72 15" stroke="#caa23a" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M44 31 Q51 21 62 17" stroke="#b9912e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <rect x="37" y="22" width="34" height="6" fill="#1d1a17"/>
+    <path d="M38 18 L70 18 L73 24 L35 24Z" fill="#e7b53c" stroke="#9c7a1d" stroke-width="1.5"/>
+    <path d="M40 18 L44 9 L50 17 L56 7 L62 17 L68 9 L70 18Z" fill="#e7b53c" stroke="#9c7a1d" stroke-width="1.2"/>
+    <circle cx="56" cy="14" r="3" fill="#d8412f"/><circle cx="45" cy="20" r="2" fill="#2f8fae"/><circle cx="67" cy="20" r="2" fill="#2f8fae"/>
+    <g stroke="#e7b53c" stroke-width="1.2"><line x1="39" y1="24" x2="37" y2="38"/><line x1="43" y1="24" x2="41" y2="40"/><line x1="47" y1="24" x2="45" y2="38"/></g>
+    <g fill="#f3e1a0"><circle cx="37" cy="38" r="1.7"/><circle cx="41" cy="40" r="1.7"/><circle cx="45" cy="38" r="1.7"/></g>
   </svg>`;
 
   // 艾草束（避邪盾）
@@ -99,6 +111,83 @@
       <path d="M50 20 Q43 11 50 4 Q57 11 50 20Z"/><path d="M30 34 Q21 30 21 21 Q30 25 30 34Z"/><path d="M70 34 Q79 30 79 21 Q70 25 70 34Z"/>
       <path d="M34 26 Q27 20 29 12 Q36 19 34 26Z"/><path d="M66 26 Q73 20 71 12 Q64 19 66 26Z"/></g>
     <rect x="42" y="82" width="16" height="9" rx="3" fill="#d8412f"/>
+  </svg>`;
+
+  // 五毒與水患（端午驅邪題材）：小尺寸優先用清楚輪廓
+  SVG.poisonSnake = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <ellipse cx="50" cy="89" rx="28" ry="5" fill="#072a31" opacity=".35"/>
+    <path d="M23 76 Q12 60 25 47 Q40 32 30 18 Q27 11 35 8 Q49 18 45 35 Q42 48 56 49 Q76 50 79 66 Q82 84 62 87 Q49 90 41 82" fill="none" stroke="#5bb84f" stroke-width="13" stroke-linecap="round"/>
+    <path d="M34 12 Q45 20 39 35 Q35 48 52 55" fill="none" stroke="#275f2b" stroke-width="3" opacity=".5"/>
+    <path d="M71 64 Q85 63 89 73 Q84 82 70 81 Q61 78 61 70 Q62 65 71 64Z" fill="#5bb84f" stroke="#275f2b" stroke-width="2"/>
+    <circle cx="79" cy="70" r="2" fill="#101010"/>
+    <path d="M87 74 l8 -3 M87 75 l8 3" stroke="#d8412f" stroke-width="1.5" stroke-linecap="round"/>
+    <g fill="#f3d44b"><circle cx="31" cy="63" r="3"/><circle cx="42" cy="52" r="3"/><circle cx="33" cy="23" r="2.5"/></g>
+  </svg>`;
+
+  SVG.gecko = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <ellipse cx="50" cy="89" rx="24" ry="5" fill="#072a31" opacity=".35"/>
+    <path d="M44 72 Q34 54 46 32 Q54 20 66 31 Q72 46 61 69 Q54 82 44 72Z" fill="#d49a39" stroke="#7b4f1c" stroke-width="2"/>
+    <path d="M57 30 Q75 21 84 12" stroke="#d49a39" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M80 12 q10 -3 12 5" stroke="#7b4f1c" stroke-width="2" fill="none"/>
+    <path d="M44 38 L25 27 M43 55 L22 57 M59 40 L81 38 M57 58 L77 70" stroke="#d49a39" stroke-width="7" stroke-linecap="round"/>
+    <g stroke="#7b4f1c" stroke-width="2" fill="none"><path d="M25 27 l-7 -5"/><path d="M22 57 l-8 2"/><path d="M81 38 l8 -2"/><path d="M77 70 l7 5"/></g>
+    <circle cx="57" cy="34" r="2" fill="#101010"/>
+  </svg>`;
+
+  SVG.scorpion = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <ellipse cx="50" cy="89" rx="27" ry="5" fill="#072a31" opacity=".35"/>
+    <path d="M45 40 Q62 31 72 43 Q79 53 70 65 Q58 77 41 68 Q30 61 32 49 Q34 43 45 40Z" fill="#9b3529" stroke="#561019" stroke-width="2"/>
+    <path d="M67 42 Q76 28 66 18 Q57 12 51 20 Q58 20 60 27 Q61 34 55 39" fill="none" stroke="#9b3529" stroke-width="7" stroke-linecap="round"/>
+    <path d="M66 18 l-1 -10 l8 7z" fill="#d8412f" stroke="#561019" stroke-width="1.5"/>
+    <path d="M34 49 L17 39 M35 58 L16 62 M66 50 L84 42 M65 60 L82 70" stroke="#9b3529" stroke-width="5" stroke-linecap="round"/>
+    <path d="M20 39 q-9 -4 -12 4 M18 62 q-8 1 -11 8 M82 42 q9 -4 12 4 M82 70 q8 1 11 8" stroke="#561019" stroke-width="2" fill="none"/>
+    <circle cx="43" cy="47" r="2" fill="#101010"/>
+    <path d="M28 42 Q15 28 8 39 Q13 45 25 47 M70 43 Q88 29 94 42 Q88 49 75 48" fill="#b84938" stroke="#561019" stroke-width="2"/>
+  </svg>`;
+
+  SVG.toad = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <ellipse cx="50" cy="89" rx="29" ry="5" fill="#072a31" opacity=".35"/>
+    <path d="M20 66 Q23 39 50 35 Q78 39 82 66 Q72 84 50 82 Q28 84 20 66Z" fill="#7b8f45" stroke="#46552a" stroke-width="2"/>
+    <circle cx="36" cy="38" r="8" fill="#8fa653" stroke="#46552a" stroke-width="2"/>
+    <circle cx="64" cy="38" r="8" fill="#8fa653" stroke="#46552a" stroke-width="2"/>
+    <circle cx="36" cy="38" r="3" fill="#101010"/><circle cx="64" cy="38" r="3" fill="#101010"/>
+    <path d="M34 63 Q50 72 66 63" stroke="#46552a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <g fill="#536433" opacity=".7"><circle cx="28" cy="57" r="3"/><circle cx="45" cy="50" r="2.5"/><circle cx="58" cy="56" r="3"/><circle cx="72" cy="62" r="2.5"/></g>
+    <path d="M24 71 L10 82 M76 71 L90 82" stroke="#7b8f45" stroke-width="7" stroke-linecap="round"/>
+  </svg>`;
+
+  SVG.centipede = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <ellipse cx="50" cy="89" rx="30" ry="5" fill="#072a31" opacity=".35"/>
+    <path d="M15 58 Q30 38 52 46 Q72 53 86 35" fill="none" stroke="#8a4a2a" stroke-width="14" stroke-linecap="round"/>
+    <path d="M15 58 Q30 38 52 46 Q72 53 86 35" fill="none" stroke="#c36b36" stroke-width="8" stroke-linecap="round"/>
+    <g stroke="#3d2115" stroke-width="2" stroke-linecap="round">
+      <path d="M24 51 l-10 -9 M30 47 l-4 -13 M38 45 l2 -13 M46 46 l8 -11 M54 48 l10 -8 M63 47 l12 -4 M71 43 l13 3"/>
+      <path d="M24 58 l-11 7 M34 54 l-5 13 M43 53 l2 13 M52 54 l8 11 M60 54 l12 7 M68 50 l13 3"/>
+    </g>
+    <circle cx="84" cy="34" r="5" fill="#c36b36" stroke="#3d2115" stroke-width="2"/>
+    <circle cx="86" cy="32" r="1.4" fill="#101010"/>
+  </svg>`;
+
+  SVG.badWave = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <ellipse cx="50" cy="89" rx="28" ry="5" fill="#072a31" opacity=".35"/>
+    <path d="M16 72 Q32 38 52 56 Q50 34 72 24 Q64 42 78 55 Q88 66 82 80 Q66 68 49 79 Q31 88 16 72Z" fill="#2f8fae" stroke="#123f5e" stroke-width="2"/>
+    <path d="M28 68 Q44 52 62 65 Q58 49 71 37" fill="none" stroke="#d7f2f4" stroke-width="5" stroke-linecap="round"/>
+    <path d="M19 77 Q34 84 49 76 M58 73 Q69 66 82 75" stroke="#d7f2f4" stroke-width="3" fill="none" opacity=".85"/>
+  </svg>`;
+
+  SVG.whirlpool = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <ellipse cx="50" cy="50" rx="39" ry="31" fill="#174f6c" stroke="#0f3548" stroke-width="2"/>
+    <path d="M17 49 Q31 19 63 22 Q87 27 86 51 Q84 76 55 79 Q28 81 25 61 Q23 44 45 42 Q65 41 67 53 Q67 64 53 65 Q45 66 43 59" fill="none" stroke="#66c5db" stroke-width="7" stroke-linecap="round"/>
+    <path d="M25 43 Q42 29 61 32 M33 67 Q50 76 69 66 M43 54 Q51 47 60 52" stroke="#d7f2f4" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="52" cy="56" r="6" fill="#0f3548"/>
+  </svg>`;
+
+  SVG.poisonFog = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <ellipse cx="50" cy="89" rx="28" ry="5" fill="#072a31" opacity=".35"/>
+    <path d="M24 65 Q13 59 19 47 Q24 37 38 40 Q43 25 59 30 Q70 33 70 46 Q84 45 87 58 Q90 74 72 76 L33 76 Q25 75 24 65Z" fill="#8a64b8" stroke="#4d3470" stroke-width="2"/>
+    <path d="M31 56 q8 -7 17 0 q8 7 17 0 q8 -7 17 0" stroke="#d8c3ef" stroke-width="3" fill="none" opacity=".75"/>
+    <path d="M35 45 q7 -5 14 0 M51 67 q8 5 16 0" stroke="#4d3470" stroke-width="2" fill="none"/>
+    <circle cx="37" cy="63" r="3" fill="#4d3470"/><circle cx="64" cy="48" r="3" fill="#4d3470"/>
   </svg>`;
 
   // 粽子（立體三角＋竹葉脈＋折角＋綁繩；肉/蛋黃露出切面：米＋豬肉＋鹹蛋黃）
@@ -135,6 +224,14 @@
     aiCao:     {cat:"power",label:"艾草",     power:"shield", weight:7, minLv:2},
     chuWang:   {cat:"bad",  label:"楚王",     score:-80, weight:18, minLv:1},
     dragonKing:{cat:"bad",  label:"海龍王",   heal:-35, weight:0,  minLv:1, dyn:"dragonW"},
+    poisonSnake:{cat:"bad", label:"毒蛇",     heal:-22, weight:10, minLv:2},
+    gecko:     {cat:"bad",  label:"壁虎",     score:-45, weight:8, minLv:2},
+    badWave:   {cat:"bad",  label:"惡浪",     heal:-16, weight:10, minLv:2},
+    scorpion:  {cat:"bad",  label:"蠍子",     heal:-28, weight:8, minLv:3},
+    toad:      {cat:"bad",  label:"蟾蜍",     score:-70, weight:7, minLv:3},
+    centipede: {cat:"bad",  label:"蜈蚣",     heal:-18, score:-20, weight:7, minLv:3},
+    whirlpool: {cat:"bad",  label:"漩渦",     heal:-24, weight:8, minLv:3},
+    poisonFog: {cat:"bad",  label:"毒霧",     heal:-18, score:-20, weight:6, minLv:3},
   };
   const LEVELS=[
     {name:"第一關・江上初航", cumTarget:500,  base:185, gap:0.95, chaos:0,  dragonW:13},
@@ -186,7 +283,14 @@
   window.addEventListener("keyup",e=>{if(["ArrowUp","w","W"].includes(e.key))keyUp=false;if(["ArrowDown","s","S"].includes(e.key))keyDown=false;});
 
   /* ===== 生成 ===== */
-  function effWeight(k){const it=ITEMS[k];return it.dyn==="dragonW"?levelCfg(levelIndex).dragonW:it.weight;}
+  function effWeight(k){
+    const it=ITEMS[k];
+    let w=it.dyn==="dragonW"?levelCfg(levelIndex).dragonW:it.weight;
+    if(it.cat==="good")w*=Math.max(0.42,1-levelIndex*0.13);
+    if(it.cat==="power")w*=Math.max(0.28,1-levelIndex*0.18);
+    if(it.cat==="bad")w*=1+levelIndex*0.16;
+    return w;
+  }
   function availableKeys(){return Object.keys(ITEMS).filter(k=>ITEMS[k].minLv<=levelIndex+1);}
   function pickType(){const keys=availableKeys();let t=keys.reduce((s,k)=>s+effWeight(k),0),r=Math.random()*t;for(const k of keys){r-=effWeight(k);if(r<=0)return k;}return keys[0];}
   function spawn(){const radius=27;entities.push({key:pickType(),x:W+radius,y:34+Math.random()*(H-68),r:radius,wob:Math.random()*6.28});}
@@ -340,7 +444,9 @@
   (function buildLegend(){
     const rows=[["quYuan","屈原 救起 +100"],["caiZong","菜粽 +20/+10血"],["rouZong","肉粽 +50/+18血"],
       ["eggZong","蛋黃肉粽 +120/+26"],["aiCao","艾草 5秒避邪盾"],["chuWang","楚王 扣分 −80"],
-      ["dragonKing","海龍王 重創 −35血"],["boat","你的龍舟"]];
+      ["dragonKing","海龍王 −35血"],["poisonSnake","毒蛇 −22血"],["badWave","惡浪 −16血"],["whirlpool","漩渦 −24血"],
+      ["scorpion","蠍子 −28血"],["toad","蟾蜍 扣分 −70"],["centipede","蜈蚣 扣分/血"],["poisonFog","毒霧 扣分/血"],
+      ["boat","你的龍舟"]];
     document.getElementById("legend").innerHTML=rows.map(([k,t])=>`<div><img src="${IMG[k].src}" alt=""><span>${t}</span></div>`).join("");
   })();
 
