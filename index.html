@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>端午龍舟・救屈原</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game"></canvas>
+
+  <div id="hud">
+    <div id="scoreBox"><div id="score">0</div><div id="combo"></div></div>
+    <div id="levelBox"><div id="lvName">第一關</div><div id="lvBarWrap"><div id="lvBar"></div></div><div id="lvNum">0 / 500</div></div>
+    <div id="hpBox"><div class="label">船身 <b id="hpNum">100</b></div><div id="hpbar"><div id="hpfill"></div></div></div>
+  </div>
+
+  <button id="restartBtn">↻ 重新開始遊戲</button>
+
+  <div class="overlay" id="startScreen">
+    <h1 class="title">端午龍舟</h1>
+    <p class="subtitle">龍舟向右破浪・救屈原撈粽子<br>上下閃過楚王與海龍王，累積分數過關</p>
+    <div class="legend" id="legend"></div>
+    <button class="btn" id="startBtn">開 始 划 船</button>
+    <p class="hint">手機：手指上下拖曳　桌機：↑ ↓ 或滑鼠</p>
+  </div>
+
+  <div class="overlay hidden" id="overScreen">
+    <h1 class="title title--small">船沉了！</h1>
+    <p class="final" id="reached">闖到 第一關</p>
+    <p class="final">本局得分　<b id="finalScore">0</b></p>
+    <p class="best" id="bestScore">最高分 0</p>
+    <button class="btn" id="retryBtn">再 玩 一 次</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
